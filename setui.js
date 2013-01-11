@@ -39,9 +39,9 @@ function parseUrl(url){
 
 function updateUI (doc){
 
-    var frames = doc.getElementsByTagName('frame');
+//    var frames = doc.getElementsByTagName('frame');
     var i, l, b;
-
+/*
     for (i = 0, l=frames.length; i<l; i++) {
         frames[i].addEventListener('DOMFrameContentLoaded', function(){
             updateUI(document);
@@ -51,7 +51,7 @@ function updateUI (doc){
         }, false);
         updateUI(frames[i].contentDocument);
     }
-    
+*/    
     var links = doc.getElementsByTagName('a');
     var forms = doc.getElementsByTagName('form');
     

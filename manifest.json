@@ -16,6 +16,7 @@
   ],
   "content_scripts": [ {
       "js": [ "setui.js" ],
-      "matches": [ "http://www.dli.ernet.in/*" ]
+      "matches": [ "http://*.dli.ernet.in/*" ],
+	  "all_frames": true
    } ]
 }
