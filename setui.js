@@ -5,7 +5,7 @@
 chrome.extension.onMessage.addListener(function(message, sender) {
 
     if (message==="reload"){
-        updateUI(document);
+        // updateUI(document);
     }
 });
 
